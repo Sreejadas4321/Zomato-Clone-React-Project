@@ -1,6 +1,6 @@
 import Homepage from "./pages/Homepage";
 import MainHomePage from "./pages/MainHomePage";
-import {BrowserRouter as Router, Routes, Route, Link, BrowserRouter} from "react-router-dom"
+import {BrowserRouter as  Routes, Route, BrowserRouter} from "react-router-dom"
 
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
       <Route exact path= "/" element={<MainHomePage/>}></Route>
       <Route exact path= "/details" element={<Homepage/>}></Route>
     </Routes>
-    
     </BrowserRouter>
   /* </Router> */
   )
